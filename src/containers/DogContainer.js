@@ -8,6 +8,10 @@ class DogContainer extends Component {
         selectedBreed: "",
     };
 
+    renderStuff = () => {
+        //should create a merge conflict
+    };
+
     componentDidMount() {
         const fetchBreeds = () => {
             fetch("https://dog.ceo/api/breeds/list/all")
