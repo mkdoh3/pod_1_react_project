@@ -8,7 +8,9 @@ class DogContainer extends Component {
         selectedBreed: "",
     };
 
-    //this is me making some change to this file
+    renderStuff = () => {
+        //should create a merge conflict
+    };
 
     componentDidMount() {
         const fetchBreeds = () => {
